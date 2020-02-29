@@ -7,6 +7,9 @@ services:
   App\:
     resource: '../framework/*'
 
+  Command\:
+    resource: '../commands/*'
+
   Controller\:
     resource: '../controllers/*'
 #    exclude: '../src/{DependencyInjection,Entity,Migrations,Tests,Kernel.php}'
