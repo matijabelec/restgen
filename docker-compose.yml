@@ -1,0 +1,12 @@
+version: '3.5'
+
+services:
+  backend:
+    image: webdevops/php-nginx:7.4
+    environment:
+      - WEB_DOCUMENT_ROOT=/app/public
+      - APP_SECRET=SOME_SECRET
+      - APP_ENV=dev
+      - APP_DEBUG=0
+    volumes:
+      - ./app:/app

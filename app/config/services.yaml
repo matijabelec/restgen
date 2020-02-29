@@ -1,0 +1,12 @@
+services:
+  _defaults:
+    autowire: true
+    autoconfigure: true
+    public: false
+
+  App\:
+    resource: '../framework/*'
+
+  Controller\:
+    resource: '../controllers/*'
+#    exclude: '../src/{DependencyInjection,Entity,Migrations,Tests,Kernel.php}'

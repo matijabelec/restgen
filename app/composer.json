@@ -1,0 +1,31 @@
+{
+    "name": "matijabelec/restgen",
+    "description": "REST API Generator",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Matija Belec",
+            "email": "matija@belec.dev"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "symfony/config": "^5.0",
+        "symfony/http-kernel": "^5.0",
+        "symfony/http-foundation": "^5.0",
+        "symfony/routing": "^5.0",
+        "symfony/dependency-injection": "^5.0",
+        "symfony/framework-bundle": "^5.0",
+        "symfony/yaml": "^5.0",
+        "symfony/twig-bundle": "^5.0",
+        "symfony/web-profiler-bundle": "^5.0",
+        "doctrine/annotations": "^1.8"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "framework/",
+            "Controller\\": "controllers/"
+        }
+    }
+}
