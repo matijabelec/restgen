@@ -29,5 +29,13 @@
             "Controller\\": "controllers/",
             "Command\\": "commands/"
         }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Test\\": "tests/"
+        }
+    },
+    "require-dev": {
+        "symfony/phpunit-bridge": "^5.0"
     }
 }
